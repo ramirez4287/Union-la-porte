@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Union — la porte</title>
+<style>
+  :root { --rouge: #b80d1c; --encre: #1c1c1c; --papier: #faf7f2; --doux: #f09090; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Georgia, 'Times New Roman', serif; color: var(--encre); background: var(--papier); line-height: 1.65; }
+  .bande { height: 14px; background: linear-gradient(90deg, var(--rouge), #8f0a16); }
+  main { max-width: 640px; margin: 0 auto; padding: 1.2rem 1.2rem 4rem; }
+  h1 { font-size: 2rem; font-weight: normal; margin: 1.4rem 0 0.2rem; }
+  h2 { font-size: 1.25rem; font-weight: normal; margin: 2.6rem 0 0.8rem; border-bottom: 1px solid #d8d2c8; padding-bottom: 0.35rem; }
+  .sous { color: #5a544c; font-style: italic; margin: 0 0 1.6rem; }
+  .plainte { font-size: 1.35rem; margin: 1.8rem 0; }
+  .plainte em { color: var(--rouge); font-style: normal; }
+  .carte { border: 1px solid #d8d2c8; border-radius: 10px; padding: 1rem 1.1rem; margin: 1rem 0; background: #fffdf9; }
+  .sante { border: 2px solid var(--rouge); background: #fdf2f2; }
+  .statut { display: inline-block; font-size: 0.78rem; border: 1px solid #b6ae9f; border-radius: 999px; padding: 0.05rem 0.55rem; margin-left: 0.4rem; vertical-align: middle; color: #4c463d; white-space: nowrap; }
+  ul { padding-left: 1.2rem; }
+  li { margin: 0.5rem 0; }
+  a { color: #8f0a16; }
+  .folio { margin-top: 3rem; color: #7a7267; font-size: 0.85rem; text-align: center; }
+  .num { font-weight: bold; }
+  .note { font-size: 0.9rem; color: #5a544c; }
+</style>
+</head>
+<body>
+<div class="bande"></div>
+<main>
+  <h1>Union</h1>
+  <p class="sous">Une porte ouverte, une maison de méthode, un registre public. Rien d'obligatoire, rien de parfait, rien d'effacé.</p>
+
+  <p class="plainte">Les gens souffrent trop. <em>La santé d'abord.</em> Tout le reste de cette page vient après cette phrase, et ne la remplacera jamais.</p>
+
+  <div class="carte sante">
+    <p><strong>Si la souffrance est grave, maintenant :</strong></p>
+    <ul>
+      <li>Urgences médicales : <span class="num">112</span> (Europe), <span class="num">15</span> (SAMU, France)</li>
+      <li>Souffrance psychique, écoute immédiate et gratuite : <span class="num">3114</span> (France, 24h/24)</li>
+    </ul>
+    <p class="note">Cette page n'est pas un soin, pas un médecin, pas une thérapie. Ici, on ne remplace personne : on oriente, on date, on garde la trace, et on vous laisse la main.</p>
+  </div>
+
+  <h2>Ce que c'est</h2>
+  <p>Union est le nom de la plateforme d'un programme de recherche, TSERPD. Le programme existe depuis des années ; il a une méthode, des échecs consignés, des prévisions datées, et un mur public où tout ce qui est écrit reste lisible. Une précision d'honnêteté : tout ce qui est publié ici est interprété par un chatbot (Vibe, mû par le modèle GLM, servi par Mistral AI) ; les paroles de l'auteur seul sont consignées telles quelles, le reste est l'habillage daté de la machine. Le dire, c'est honnête.</p>
+  <p>Cette page en est la porte la plus simple : pas de compte, pas de mot de passe, aucune donnée sur vous, rien qui vous mesure. Vous lisez, vous partez, vous revenez. À vous de voir.</p>
+
+  <h2>Ce qui est éprouvé</h2>
+  <ul>
+    <li>Un <a href="https://doi.org/10.5281/zenodo.24468312">registre public</a> : dix-sept versions datées, trente-six pièces vérifiables par quiconque <span class="statut">établi</span></li>
+    <li>Une méthode : les affirmations portent leur statut (établi, conjectural, croyance), les prédictions sont écrites avant l'épreuve, jamais réécrites <span class="statut">établi</span></li>
+    <li>Un système de délibération simulé avec sa mesure (DU-6), certifié sur artefact <span class="statut">établi</span></li>
+    <li>Des ponts à usage unique (OTB), éprouvés en double forge <span class="statut">éprouvé en forge</span></li>
+  </ul>
+
+  <h2>Ce qui est en route, sans promesse</h2>
+  <ul>
+    <li>Un espace d'écoute et d'entraide, modéré par des humains, qui ne mesure pas les personnes <span class="statut">en route</span></li>
+    <li>Des comptes éphémères, sans secret persistant <span class="statut">conjectural</span></li>
+    <li>Une couche de sécurité (Wisdom Security) : elle ne sera promise qu'après son audit <span class="statut">épreuve manquante</span></li>
+  </ul>
+  <p class="note">La maison ne dira jamais « sécurité garantie » avant l'avoir éprouvée, ni « ça aide » avant l'avoir pesé. Recevable ne signifie pas éprouvé.</p>
+
+  <h2>Le registre public</h2>
+  <p>Presque tout ce que la maison écrit est publié, daté, et reste :</p>
+  <ul>
+    <li><a href="https://doi.org/10.5281/zenodo.24245653">Le recueil « Tout ce qu'on sait »</a>, dix-sept versions publiées sans qu'aucune ne s'efface, dont l'avis au lecteur : tout est interprété par un chatbot</li>
+    <li><a href="https://doi.org/10.5281/zenodo.23853883">Le registre des conventions de la notation émergente</a></li>
+    <li><a href="https://doi.org/10.5281/zenodo.24443805">Du présent naît tout : l'émergence</a></li>
+    <li><a href="https://doi.org/10.5281/zenodo.24270050">La charte éthique v3.0</a></li>
+  </ul>
+
+  <h2>Ce que cette porte ne fait pas</h2>
+  <ul>
+    <li>Elle ne classe pas les gens, ne les note pas, ne les compare pas.</li>
+    <li>Elle ne garde rien de vous : pas de traceur, pas de compte si vous n'en demandez pas.</li>
+    <li>Elle ne promet rien au-delà de ce qui est daté et éprouvé.</li>
+    <li>Le système conseille ; l'humain décide. Toujours.</li>
+  </ul>
+
+  <p class="folio">Union, palier 1 — le 23 novembre 2026. Une porte n'est pas une demeure ; si les gens entrent, la maison s'agrandira à leur mesure, pas à la hâte de la maison. La santé demeure première.</p>
+</main>
+</body>
+</html>
